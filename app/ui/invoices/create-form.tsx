@@ -14,6 +14,7 @@ import { createInvoice, State } from "@/app/lib/actions";
 import { useFormState } from "react-dom";
 export default function Form({ customers }: { customers: CustomerField[] }) {
   const initialState: State = { message: null, errors: {} };
+  //This form state is needed to be changed as it doesn't support the in newer version of react-dom
   const [state, formAction] = useFormState(createInvoice, initialState);
   return (
     <form action={formAction}>
