@@ -1,0 +1,7 @@
+19-08
+Today I revised the topic
+1. Getting Started
+2. CSS Styling 
+3. Optimizing Font and Images
+4. Creating layout and pages
+5. Navigating between pages
