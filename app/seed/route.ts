@@ -4,6 +4,17 @@ import { invoices, customers, revenue, users } from "../lib/placeholder-data";
 
 const client = await db.connect();
 
+async function createabc() {
+  await client.sql`CREATE EXTENSION IF NOT EXISTS "uuid-ossp"`;
+  await client.sql`
+    CREATE TABLE IF NOT EXISTS abc(
+      id UUID DEFAULT uuid_generate_v4() PRIMARY KEY,
+      name VARCHAR(255) NOT NULL,
+      email TEXT NOT NULL UNIQUE,
+      address TEXT NOT NULL
+    )`;
+}
+
 async function seedUsers() {
   await client.sql`CREATE EXTENSION IF NOT EXISTS "uuid-ossp"`;
   await client.sql`
@@ -104,6 +115,7 @@ async function seedRevenue() {
 export async function GET() {
   try {
     await client.sql`BEGIN`;
+    await createabc();
     await seedUsers();
     await seedCustomers();
     await seedInvoices();

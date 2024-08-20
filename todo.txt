@@ -5,3 +5,11 @@ Today I revised the topic
 3. Optimizing Font and Images
 4. Creating layout and pages
 5. Navigating between pages
+
+20-08
+Today I revised the topic 
+6. Setting up your database 
+    In which revisited my seed/route.ts and learned how to seed the table if it doesn't already exist 
+    I seeded my own table named as abc in which i inserted the id name password and address and colums of it 
+    I feel good after learning it as it gives me the hope of using my full potential
+    
