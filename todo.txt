@@ -13,3 +13,10 @@ Today I revised the topic
     I seeded my own table named as abc in which i inserted the id name password and address and colums of it 
     I feel good after learning it as it gives me the hope of using my full potential
     
+21-08
+Today we revised the topic
+7.Data Fetching
+    In this we saw how the sql queries are written in lib/data.ts and how they are exported 
+    we also learned how the data is fetched onto the front end with map function
+    we learned different ways to fetch the data 
+    Today we saw how the dashboard page data is fetched and also revised about request waterfall
