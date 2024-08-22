@@ -20,3 +20,8 @@ Today we revised the topic
     we also learned how the data is fetched onto the front end with map function
     we learned different ways to fetch the data 
     Today we saw how the dashboard page data is fetched and also revised about request waterfall
+
+22-08
+Today we revised the topic
+8. Static and Dynamic rendering 
+    In this we regained the know of how the data can be fetched only when requested from the user side and to reduce the load on the server as well as to improve the accesibility as it can be needed incase of continous loading dashboard
