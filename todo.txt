@@ -25,3 +25,11 @@ Today we revised the topic
 Today we revised the topic
 8. Static and Dynamic rendering 
     In this we regained the know of how the data can be fetched only when requested from the user side and to reduce the load on the server as well as to improve the accesibility as it can be needed incase of continous loading dashboard
+
+23-0
+Today we revised the topic
+9. Streaming
+    In this chapter we again got through how the suspense element work and how you can insert the element when the async function is getting completed fetching the data
+    we also learned how we can fetch different component according to their fetching time meaning some component can load first and other late as they take some time to load due to the data
+10. PPR 
+    In this topic there was not much to revise anything much as its a rolling feature of next14
