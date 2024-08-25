@@ -39,3 +39,8 @@ Today we revised the topic
 10. Adding Pagination and Search
     In this we learned how the url path can be used to search for query and how its much user friendly to share the exact search url
     we also revised how the pagenation works previously we didn't uncomment the pagenation component but now its all good and working
+
+25-08
+Today we revised the topic
+11. Mutating data 
+    In this we got to know how to validate the data in the form and how to validate it from client side (with `required` tag) and by server side(Server side actions) however for a small application like ours the server side validation is not necessary but a good practise to keep our server save from DDos attacks
