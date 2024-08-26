@@ -36,11 +36,20 @@ Today we revised the topic
 
 24-08 
 Today we revised the topic
-10. Adding Pagination and Search
+11. Adding Pagination and Search
     In this we learned how the url path can be used to search for query and how its much user friendly to share the exact search url
     we also revised how the pagenation works previously we didn't uncomment the pagenation component but now its all good and working
 
 25-08
 Today we revised the topic
-11. Mutating data 
+12. Mutating data 
     In this we got to know how to validate the data in the form and how to validate it from client side (with `required` tag) and by server side(Server side actions) however for a small application like ours the server side validation is not necessary but a good practise to keep our server save from DDos attacks
+
+26-08
+Today we revised the topic
+13. Handling Errors
+    In this we look how the error.tsx and not-found.tsx works in certain error situation it was fairly easy to implement and understand
+14. Improving accessibility
+    In this as usual we revised how to improve the accessibility of users and how to speed up the development by Handling the error in the run time
+16.Adding Metadata
+    In this we revised what are the different type of metadata and how we can set the metadata for each of our page to make our website seo friendly and this is by far makes the next14 framework the best to work with
