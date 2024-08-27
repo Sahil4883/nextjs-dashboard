@@ -53,3 +53,9 @@ Today we revised the topic
     In this as usual we revised how to improve the accessibility of users and how to speed up the development by Handling the error in the run time
 16.Adding Metadata
     In this we revised what are the different type of metadata and how we can set the metadata for each of our page to make our website seo friendly and this is by far makes the next14 framework the best to work with
+
+27-08
+Today we revised the topic
+15.Authentication
+    In this we revised how to redirect a user if they're already logged in 
+    we also revised how to protect our route if the user is not logged into our web app
