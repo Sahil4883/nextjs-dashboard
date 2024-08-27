@@ -59,3 +59,5 @@ Today we revised the topic
 15.Authentication
     In this we revised how to redirect a user if they're already logged in 
     we also revised how to protect our route if the user is not logged into our web app
+
+This is the end of our short journey of next14 and shortly we'll build some amazing project with greater challenges ahead
